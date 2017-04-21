@@ -53,7 +53,7 @@ exports.config = {
     //
     // Set a base URL in order to shorten url command calls. If your url parameter starts
     // with "/", the base url gets prepended.
-    baseUrl: 'https://www.google.com',
+    baseUrl: 'http://172.18.0.3:80',
     //
     // Default timeout for all waitForXXX commands.
     waitforTimeout: 100000,
