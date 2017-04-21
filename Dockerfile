@@ -9,3 +9,5 @@ RUN npm install
 
 VOLUME /app
 WORKDIR /app
+
+CMD ["wdio"]
