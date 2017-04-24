@@ -1,4 +1,4 @@
-FROM ubuntu:16.10
+FROM alpine:3.3
 
 RUN apt-get update -y 
 RUN apt-get install -y sudo
