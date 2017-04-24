@@ -12,6 +12,7 @@ RUN sudo apt-get install -y nodejs
 RUN apt-get update -y 
 
 RUN sudo apt-get install -y build-essential
+RUN apt-get install -y python python-dev python-pip python-virtualenv
 RUN node -v
 RUN echo $PATH
 RUN npm -v
