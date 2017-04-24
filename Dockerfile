@@ -4,7 +4,8 @@ RUN apk add --no-cache sudo
 
 RUN apk add --no-cache curl
 
-RUN apk add --no-cache build-essential checkinstall
+RUN apk add --no-cache build-essential 
+RUN apk add --no-cache checkinstall
 RUN apk add --no-cache libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 
 RUN curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
