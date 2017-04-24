@@ -1,4 +1,4 @@
-FROM node:7.9.0
+FROM node:7.9-slim
 
 ENV NODE_PATH /install/node_modules/
 ENV PATH /install/node_modules/.bin:$PATH
