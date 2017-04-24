@@ -16,8 +16,6 @@ RUN node -v
 RUN echo $PATH
 RUN npm -v
 
-RUN npm install npm@latest -g
-
 ENV NODE_PATH /install/node_modules/
 ENV PATH /install/node_modules/.bin:$PATH
 
