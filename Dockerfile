@@ -8,6 +8,9 @@ RUN apt-get install -y libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqli
 RUN curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 RUN sudo apt-get install -y nodejs
 RUN sudo apt-get install -y build-essential
+RUN node -v
+RUN echo $PATH
+RUN npm -v
 
 RUN npm install npm@latest -g
 
