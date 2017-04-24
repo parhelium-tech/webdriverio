@@ -1,9 +1,9 @@
 FROM alpine:3.3
 
-RUN apk add --no-cache -y sudo
+RUN apk add --no-cache  sudo
 
-RUN apk add --no-cache -y build-essential checkinstall
-RUN apk add --no-cache -y libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+RUN apk add --no-cache build-essential checkinstall
+RUN apk add --no-cache libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 
 RUN apk add --no-cache curl
 
